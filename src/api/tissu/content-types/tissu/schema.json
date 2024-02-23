@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tissus",
+  "info": {
+    "singularName": "tissu",
+    "pluralName": "tissus",
+    "displayName": "tissu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "quantity": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "colorpicker"
+    }
+  }
+}
